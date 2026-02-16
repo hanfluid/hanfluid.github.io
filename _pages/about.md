@@ -1,34 +1,32 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Researcher at <a href='https://cse.umn.edu/safl'>St. Anthony Falls Laboratory</a>, University of Minnesota
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.jpg  # put your photo in assets/img/prof_pic.jpg
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>St. Anthony Falls Laboratory</p>
+    <p>University of Minnesota</p>
+    <p>Minneapolis, MN, USA</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true
+selected_papers: true
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I am Han Liu, a researcher at [St. Anthony Falls Laboratory](https://cse.umn.edu/safl), University of Minnesota. Before joining UMN, I obtained my Ph.D. in Fluid Mechanics from [Peking University](https://www.pku.edu.cn/) in 2018.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests are focused on **Computational Fluid Dynamics (CFD)**, including:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- **Multiphase flow** — air-water-oil systems, ventilated cavitation
+- **Turbulence** — compressible turbulence, large-eddy simulation
+- **Particle-laden flow** — preferential concentration, Stokes number effects
+- **Fluid-structure interaction (FSI)** — flexible aquatic canopies, hydrokinetic turbines
+- **Flow instability** — Richtmyer-Meshkov instability, mixing
+- **Data-driven methods** — variational quantum algorithms for fluid mechanics
+
+I develop high-fidelity numerical simulation tools and apply them to problems ranging from fundamental turbulence physics to practical engineering applications such as COVID-19 airborne transmission, oil spill dynamics in breaking waves, and renewable energy systems.
