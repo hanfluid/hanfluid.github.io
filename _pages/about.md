@@ -6,7 +6,7 @@ subtitle: Researcher at <a href='https://cse.umn.edu/safl'>St. Anthony Falls Lab
 
 profile:
   align: right
-  image: prof_pic.jpg # put your photo in assets/img/prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p>St. Anthony Falls Laboratory</p>
@@ -18,15 +18,14 @@ selected_papers: true
 social: true
 ---
 
-Hi, I am Han Liu, a researcher at [St. Anthony Falls Laboratory](https://cse.umn.edu/safl), University of Minnesota. Before joining UMN, I obtained my Ph.D. in Fluid Mechanics from [Peking University](https://www.pku.edu.cn/) in 2018.
+I am a researcher at [St. Anthony Falls Laboratory (SAFL)](https://cse.umn.edu/safl), University of Minnesota, working in the [Fluid Mechanics Lab](https://fluids.umn.edu/) led by Prof. [Lian Shen](https://cse.umn.edu/me/lian-shen). I obtained my Ph.D. in Fluid Mechanics from [Peking University](https://www.pku.edu.cn/) in 2018.
 
-My research interests are focused on **Computational Fluid Dynamics (CFD)**, including:
+My research centers on **Computational Fluid Dynamics (CFD)**, developing high-fidelity numerical simulation tools and applying them to fundamental and applied problems in fluid mechanics. Current research directions include:
 
-- **Multiphase flow** — air-water-oil systems, ventilated cavitation
-- **Turbulence** — compressible turbulence, large-eddy simulation
-- **Particle-laden flow** — preferential concentration, Stokes number effects
-- **Fluid-structure interaction (FSI)** — flexible aquatic canopies, hydrokinetic turbines
-- **Flow instability** — Richtmyer-Meshkov instability, mixing
-- **Data-driven methods** — variational quantum algorithms for fluid mechanics
+- **Multiphase flow** — ventilated cavitation, air-water-oil interface dynamics, level set and volume of fluid methods
+- **Turbulence** — compressible turbulence, large-eddy simulation (LES), Richtmyer-Meshkov instability and mixing
+- **Particle-laden flow** — preferential concentration, Stokes number effects in compressible turbulence
+- **Fluid-structure interaction** — flexible aquatic canopy flows, hydrokinetic turbine design and optimization
+- **Quantum-inspired computing for fluids** — tensor network methods for Navier-Stokes equations, variational quantum algorithms
 
-I develop high-fidelity numerical simulation tools and apply them to problems ranging from fundamental turbulence physics to practical engineering applications such as COVID-19 airborne transmission, oil spill dynamics in breaking waves, and renewable energy systems.
+My work spans from fundamental turbulence physics to practical engineering applications such as [COVID-19 airborne transmission simulation](/projects/covid19/), [oil spill dynamics in breaking waves](/projects/oil_spills/), and [renewable energy systems](/projects/turbine/).

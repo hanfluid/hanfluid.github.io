@@ -14,7 +14,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
   <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-keywords: CFD, computational fluid dynamics, multiphase flow, turbulence, particle-laden flow, fluid-structure interaction
+keywords: CFD, computational fluid dynamics, multiphase flow, turbulence, particle-laden flow, fluid-structure interaction, quantum computing, tensor networks
 lang: en
 icon: ⚡ # emoji as favicon
 
@@ -65,7 +65,7 @@ twitter_username: hanliufluid
 linkedin_username: hliu2019
 scholar_userid: iBmQmukAAAAJ
 researchgate_username: Han-Liu-15
-orcid_id:
+orcid_id: 0000-0003-1640-9620
 
 contact_note: >
   Feel free to reach out via email or connect on social media.

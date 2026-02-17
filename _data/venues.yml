@@ -1,9 +1,31 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"JFM":
+  url: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics
+  color: "#1a5276"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"JCP":
+  url: https://www.sciencedirect.com/journal/journal-of-computational-physics
+  color: "#2e86c1"
 
-"Vision":
-  color: "#009f36"
+"PoF":
+  url: https://pubs.aip.org/aip/pof
+  color: "#148f77"
+
+"PRE":
+  url: https://journals.aps.org/pre/
+  color: "#7d3c98"
+
+"PRF":
+  url: https://journals.aps.org/prfluids/
+  color: "#a93226"
+
+"IJMF":
+  url: https://www.sciencedirect.com/journal/international-journal-of-multiphase-flow
+  color: "#d35400"
+
+"RE":
+  url: https://www.sciencedirect.com/journal/renewable-energy
+  color: "#27ae60"
+
+"AAMM":
+  url: https://www.global-sci.org/aamm/
+  color: "#5d6d7e"

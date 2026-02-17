@@ -5,7 +5,7 @@
     "image": "",
     "email": "liux3790@umn.edu",
     "url": "https://hanliu.me",
-    "summary": "Researcher at St. Anthony Falls Laboratory, University of Minnesota. Research focused on Computational Fluid Dynamics (CFD), multiphase flow, turbulence, and data-driven methods.",
+    "summary": "Researcher at St. Anthony Falls Laboratory, University of Minnesota. Research focused on Computational Fluid Dynamics (CFD), multiphase flow, turbulence, and quantum-inspired computing for fluid mechanics.",
     "location": {
       "city": "Minneapolis",
       "countryCode": "US",
@@ -31,7 +31,7 @@
       "url": "https://cse.umn.edu/safl",
       "startDate": "2021-01-01",
       "endDate": "",
-      "summary": "Computational Fluid Dynamics research, multiphase flow simulation, data-driven methods for fluid mechanics."
+      "summary": "Computational Fluid Dynamics research, multiphase flow simulation, quantum-inspired computing methods for fluid mechanics."
     },
     {
       "name": "St. Anthony Falls Laboratory, University of Minnesota",
@@ -66,6 +66,6 @@
     { "name": "Turbulence" },
     { "name": "Particle-laden Flow" },
     { "name": "Fluid-Structure Interaction" },
-    { "name": "Data-driven Methods" }
+    { "name": "Quantum-Inspired Computing" }
   ]
 }
