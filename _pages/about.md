@@ -24,7 +24,7 @@ social: false
 
 B.S. and Ph.D. from [Peking University](https://english.pku.edu.cn/). Now a researcher at [UMN](https://twin-cities.umn.edu/).
 
-I write CFD solvers from scratch. Compressible turbulence, multiphase flows, level set methods, fluid-structure interaction. I like knowing what every line of my code does.
+I write in-house CFD solvers from the ground up: discretization, parallel computing (MPI, CUDA), CPU/GPU optimization. I like knowing what every line of my code does. Recently I've also been orchestrating multiple AI coding agents to develop and debug solvers. Sometimes they fix bugs while I sleep.
 
 My work focuses on multiphase turbulence, both incompressible and compressible, such as [ventilated supercavitation](/visualizations/#ventilated-cavity-flow), [oil spills under breaking waves](/visualizations/#oil-dispersion-under-breaking-waves), [COVID-19 airborne transmission](/visualizations/#covid-19-airborne-transmission), [canopy flows](/visualizations/#turbulent-canopy-flow), Richtmyer-Meshkov instability, and particle-laden turbulence.
 
