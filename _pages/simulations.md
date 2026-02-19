@@ -12,6 +12,18 @@ nav_order: 2
 <div class="viz-item">
 <div class="viz-video">
 <div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/gh-p_KC9nhw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>Quantum Tensor Network vs DNS: Shallow Water Equations</h4>
+<p>Side-by-side comparison of classical DNS and quantum tensor network encoded simulation (15x compressed) for the shallow water equations, demonstrating near-identical accuracy with dramatically reduced data representation.</p>
+</div>
+</div>
+
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/NJTRVlPevx4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
@@ -36,7 +48,7 @@ nav_order: 2
 <div class="viz-item">
 <div class="viz-video">
 <div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/AhPMyL2Dgl4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/vsy0xnjz4Uc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 <div class="viz-info">
