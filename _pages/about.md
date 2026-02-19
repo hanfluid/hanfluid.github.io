@@ -22,12 +22,10 @@ selected_papers: false
 social: false
 ---
 
-I earned both my B.S. and Ph.D. in Fluid Mechanics from [Peking University](https://english.pku.edu.cn/), and I am currently a researcher at the [University of Minnesota](https://twin-cities.umn.edu/). I build CFD solvers from scratch, and I find that genuinely exciting.
+B.S. and Ph.D. from [Peking University](https://english.pku.edu.cn/). Now a researcher at [UMN](https://twin-cities.umn.edu/).
 
-There is something deeply satisfying about writing every line of a flow solver yourself: discretizing the Navier-Stokes equations, implementing the time integration, debugging the pressure Poisson solver at 2 a.m., and finally watching a physically correct vortex emerge on screen. That hands-on, from-the-ground-up approach has defined my work from the start.
+I write CFD solvers from scratch. Compressible turbulence, multiphase flows, level set methods, fluid-structure interaction. I like knowing what every line of my code does.
 
-I began by writing **compressible flow solvers** for shock-turbulence interaction and Richtmyer-Meshkov instability, where getting the numerics right at the smallest scales of energy transfer is everything. From there I built **multiphase solvers**, coupling level set and volume-of-fluid methods to track the chaotic dynamics of air, water, and oil simultaneously. These in-house codes have let me tackle problems I care about: [ventilated supercavitation](/visualizations/#ventilated-cavity-flow), [oil dispersion under breaking waves](/visualizations/#oil-dispersion-under-breaking-waves), [airborne virus transmission in restaurants](/visualizations/#covid-19-airborne-transmission), and [turbulent canopy flows](/visualizations/#turbulent-canopy-flow) with flexible vegetation.
+Things I've worked on: [ventilated supercavitation](/visualizations/#ventilated-cavity-flow), [oil spills under breaking waves](/visualizations/#oil-dispersion-under-breaking-waves), [COVID-19 airborne transmission](/visualizations/#covid-19-airborne-transmission), [canopy flows](/visualizations/#turbulent-canopy-flow), Richtmyer-Meshkov instability, particle-laden turbulence.
 
-What drives me now is **optimization**: making solvers faster, leaner, and smarter. I'm exploring **quantum-inspired algorithms and tensor network methods** to compress and solve the Navier-Stokes equations, seeking exponential speedups that classical approaches cannot offer. The idea of encoding an entire turbulent flow field as a matrix product state, then evolving it efficiently, feels like the next frontier.
-
-If it involves fluid physics, numerical methods, and the challenge of squeezing every ounce of performance out of a computation, I'm in.
+Currently exploring **quantum-inspired tensor network methods** for solving the Navier-Stokes equations. The goal is to make solvers fundamentally faster.
