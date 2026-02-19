@@ -12,48 +12,12 @@ nav_order: 2
 <div class="viz-item">
 <div class="viz-video">
 <div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/VJelVY1T58g" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
-<div class="viz-info">
-<h4>Ventilated Cavity Flow</h4>
-<p>DNS of gas injection into an underwater cavity. Captures cavity dynamics, wake instability, and gas-liquid interaction at low Reynolds number. <a href="https://doi.org/10.1017/jfm.2023.431">JFM 2023</a></p>
-</div>
-</div>
-
-<div class="viz-item">
-<div class="viz-video">
-<div class="ratio ratio-16x9">
 <iframe src="https://www.youtube.com/embed/NJTRVlPevx4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 <div class="viz-info">
 <h4>COVID-19 Airborne Transmission</h4>
 <p>Respiratory aerosol transport driven by AC airflow in a restaurant, reproducing a real outbreak documented in Guangzhou. <a href="https://doi.org/10.1063/5.0040188">PoF 2021, Featured Article</a></p>
-</div>
-</div>
-
-<div class="viz-item">
-<div class="viz-video">
-<div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/AhPMyL2Dgl4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
-<div class="viz-info">
-<h4>Oil Dispersion Under Breaking Waves</h4>
-<p>Three-phase solver (air, water, oil) tracks bubble entrainment, droplet breakup, and oil fragmentation using a coupled level set method.</p>
-</div>
-</div>
-
-<div class="viz-item">
-<div class="viz-video">
-<div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/256nWAEoTh0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</div>
-<div class="viz-info">
-<h4>Turbulent Canopy Flow</h4>
-<p>Fluid-structure interaction simulation of flexible underwater vegetation under turbulent flow, capturing the two-way coupling between flow and canopy. <a href="https://doi.org/10.1017/jfm.2022.655">JFM 2022</a></p>
 </div>
 </div>
 
@@ -72,12 +36,24 @@ nav_order: 2
 <div class="viz-item">
 <div class="viz-video">
 <div class="ratio ratio-16x9">
-<iframe src="https://www.youtube.com/embed/M_olyC3N46w" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/AhPMyL2Dgl4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 <div class="viz-info">
-<h4>Richtmyer-Meshkov Instability</h4>
-<p>Scale-to-scale energy transfer in shock-driven turbulent mixing. DNS resolves the energy cascade from large-scale instability down to dissipation scales. <a href="https://doi.org/10.1103/PhysRevE.93.053112">PRE 2016</a></p>
+<h4>Oil Dispersion Under Breaking Waves</h4>
+<p>Three-phase solver (air, water, oil) tracks bubble entrainment, droplet breakup, and oil fragmentation using a coupled level set method.</p>
+</div>
+</div>
+
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/VJelVY1T58g" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>Ventilated Cavity Flow</h4>
+<p>DNS of gas injection into an underwater cavity. Captures cavity dynamics, wake instability, and gas-liquid interaction at low Reynolds number. <a href="https://doi.org/10.1017/jfm.2023.431">JFM 2023</a></p>
 </div>
 </div>
 
@@ -90,6 +66,30 @@ nav_order: 2
 <div class="viz-info">
 <h4>Supercavitation Under Ocean Surface</h4>
 <p>Ventilated supercavity interacting with the free surface, showing the coupled dynamics of cavity, wake, and ocean waves.</p>
+</div>
+</div>
+
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/256nWAEoTh0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>Turbulent Canopy Flow</h4>
+<p>Fluid-structure interaction simulation of flexible underwater vegetation under turbulent flow, capturing the two-way coupling between flow and canopy. <a href="https://doi.org/10.1017/jfm.2022.655">JFM 2022</a></p>
+</div>
+</div>
+
+<div class="viz-item">
+<div class="viz-video">
+<div class="ratio ratio-16x9">
+<iframe src="https://www.youtube.com/embed/M_olyC3N46w" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<div class="viz-info">
+<h4>Richtmyer-Meshkov Instability</h4>
+<p>Scale-to-scale energy transfer in shock-driven turbulent mixing. DNS resolves the energy cascade from large-scale instability down to dissipation scales. <a href="https://doi.org/10.1103/PhysRevE.93.053112">PRE 2016</a></p>
 </div>
 </div>
 
