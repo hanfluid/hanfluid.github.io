@@ -7,8 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-All visualizations on this page were computed with solvers I wrote from scratch.
-
 <div class="viz-grid">
 
 <div class="viz-item">

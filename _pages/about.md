@@ -9,12 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>St. Anthony Falls Laboratory (SAFL)</p>
-    <p>University of Minnesota</p>
     <div class="profile-buttons">
-      <a href="/assets/pdf/Han_Liu_CV.pdf" target="_blank" title="CV"><i class="fa-solid fa-file-pdf"></i> CV</a>
-      <a href="mailto:liux3790@umn.edu" title="Email"><i class="fa-solid fa-envelope"></i> Email</a>
-      <a href="https://scholar.google.com/citations?user=iBmQmukAAAAJ" target="_blank" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i> Scholar</a>
+      <a href="mailto:liux3790@umn.edu" title="liux3790@umn.edu"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="https://scholar.google.com/citations?user=iBmQmukAAAAJ" target="_blank" title="Scholar"><i class="fa-brands fa-google-scholar"></i> Scholar</a>
       <a href="https://www.linkedin.com/in/hliu2019/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
     </div>
 
