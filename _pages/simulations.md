@@ -53,7 +53,7 @@ nav_order: 2
 </div>
 <div class="viz-info">
 <h4>Oil Dispersion Under Breaking Waves</h4>
-<p>Three-phase solver (air, water, oil) tracks bubble entrainment, droplet breakup, and oil fragmentation using a coupled level set method.</p>
+<p>Three-phase solver (air, water, oil) tracks bubble entrainment, droplet breakup, and oil fragmentation using a coupled level set and volume of fluid (CLSVOF) method.</p>
 </div>
 </div>
 
