@@ -9,6 +9,8 @@ nav_order: 2
 
 All visualizations below were produced by in-house solvers built from scratch, and all of them were done before the AI agents joined the team :)
 
+<hr>
+
 <div class="viz-grid">
 
 <div class="viz-item">
