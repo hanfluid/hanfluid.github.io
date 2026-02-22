@@ -22,7 +22,7 @@ selected_papers: false
 social: false
 ---
 
-B.S. and Ph.D. from [Peking University](https://english.pku.edu.cn/). Now a researcher at [UMN](https://twin-cities.umn.edu/).
+B.S. and Ph.D. from Peking University. Now a researcher at [Saint Anthony Falls Laboratory](https://www.safl.umn.edu/), University of Minnesota.
 
 I write in-house computational fluid dynamics (CFD) solvers from the ground up: discretization, parallel computing (MPI, CUDA), CPU/GPU optimization. I know what every line of my code does (before AI agents...).
 
