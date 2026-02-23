@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-All visualizations below were produced by in-house solvers built from scratch, and all of them were done before the AI agents joined the team :)
+All visualizations below were produced by in-house solvers built from scratch, before the AI agents joined the team :)
 
 <hr>
 
@@ -21,7 +21,7 @@ All visualizations below were produced by in-house solvers built from scratch, a
 </div>
 <div class="viz-info">
 <h4>Quantum Tensor Network vs DNS: Shallow Water Equations</h4>
-<p>Side-by-side comparison of classical DNS and quantum tensor network encoded simulation (15x compressed) for the shallow water equations, demonstrating near-identical accuracy with dramatically reduced data representation.</p>
+<p>Side-by-side comparison of classical DNS and quantum tensor network encoded simulation (15x compressed) for the shallow water equations, demonstrating near-identical accuracy with significantly reduced data representation.</p>
 </div>
 </div>
 
@@ -57,7 +57,7 @@ All visualizations below were produced by in-house solvers built from scratch, a
 </div>
 <div class="viz-info">
 <h4>Oil Dispersion Under Breaking Waves</h4>
-<p>Three-phase solver (air, water, oil) tracks bubble entrainment, droplet breakup, and oil fragmentation using a coupled level set and volume of fluid (CLSVOF) method.</p>
+<p>Three-phase simulation (air, water, oil) capturing bubble entrainment, droplet breakup, and oil fragmentation using CLSVOF.</p>
 </div>
 </div>
 
@@ -93,7 +93,7 @@ All visualizations below were produced by in-house solvers built from scratch, a
 </div>
 <div class="viz-info">
 <h4>Turbulent Canopy Flow</h4>
-<p>Fluid-structure interaction simulation of flexible underwater vegetation under turbulent flow, capturing the two-way coupling between flow and canopy. <a href="https://doi.org/10.1017/jfm.2022.655">JFM 2022</a></p>
+<p>Fluid-structure interaction simulation of flexible underwater vegetation under turbulent flow, capturing the two-way coupling between the flow and the vegetation. <a href="https://doi.org/10.1017/jfm.2022.655">JFM 2022</a></p>
 </div>
 </div>
 
@@ -117,7 +117,7 @@ All visualizations below were produced by in-house solvers built from scratch, a
 </div>
 <div class="viz-info">
 <h4>Vertical Axis Hydro-Turbine</h4>
-<p>LES of a drag-type vertical axis hydrokinetic turbine in open channel flow, used for co-design optimization of turbine geometry. <a href="https://doi.org/10.1016/j.renene.2021.09.119">Renewable Energy 2021</a></p>
+<p>LES of a drag-type vertical axis hydrokinetic turbine in open channel flow, for co-design and optimization of turbine geometry. <a href="https://doi.org/10.1016/j.renene.2021.09.119">Renewable Energy 2021</a></p>
 </div>
 </div>
 
