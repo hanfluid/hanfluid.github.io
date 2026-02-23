@@ -26,6 +26,6 @@ B.S. and Ph.D. from Peking University. Now a researcher at [Saint Anthony Falls 
 
 I write in-house computational fluid dynamics (CFD) solvers from governing equations to production code: numerical schemes, parallel computing (MPI, CUDA), CPU/GPU optimization. I know what every line of my code does (before AI agents...).
 
-My work focuses on multiphase turbulence, both incompressible and compressible, using interface-capturing, immersed boundary, and particle methods. Applications range from [hydrodynamics](/visualizations/#ventilated-cavity-flow) and [oil spill modeling](/visualizations/#oil-dispersion-under-breaking-waves) to [COVID-19 airborne transmission](/visualizations/#covid-19-airborne-transmission) and [shock-driven mixing](/visualizations/#richtmyer-meshkov-instability).
+My work focuses on multiphase turbulence across incompressible and compressible regimes. The solvers I built have tackled problems in [ocean engineering](/visualizations/#ventilated-cavity-flow), [environmental response](/visualizations/#oil-dispersion-under-breaking-waves), [public health](/visualizations/#covid-19-airborne-transmission), and [high-energy physics](/visualizations/#richtmyer-meshkov-instability).
 
 Now I'm pushing CFD into its next generation by combining quantum computing, AI, and high-performance computing. I'm exploring quantum tensor networks for solving the Navier-Stokes equations. I also orchestrate multiple AI coding agents to develop and debug solvers. Sometimes they fix bugs while I sleep. The goal: solvers that think, scale, and run while I sleep.
