@@ -24,7 +24,7 @@ social: false
 
 B.S. and Ph.D. from Peking University. Now a researcher at [Saint Anthony Falls Laboratory](https://www.safl.umn.edu/), University of Minnesota.
 
-I write in-house computational fluid dynamics (CFD) solvers from the ground up: discretization, parallel computing (MPI, CUDA), CPU/GPU optimization. I know what every line of my code does (before AI agents...).
+I write in-house computational fluid dynamics (CFD) solvers from governing equations to production code: numerical schemes, parallel computing (MPI, CUDA), CPU/GPU optimization. I know what every line of my code does (before AI agents...).
 
 My work focuses on multiphase turbulence, both incompressible and compressible, using interface-capturing, immersed boundary, and particle methods. Applications range from [hydrodynamics](/visualizations/#ventilated-cavity-flow) and [oil spill modeling](/visualizations/#oil-dispersion-under-breaking-waves) to [COVID-19 airborne transmission](/visualizations/#covid-19-airborne-transmission) and [shock-driven mixing](/visualizations/#richtmyer-meshkov-instability).
 
