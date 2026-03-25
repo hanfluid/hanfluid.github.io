@@ -1,188 +1,274 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Han Liu
-    - name: Email
-      value: liux3790@umn.edu
-    - name: Languages
-      value: Chinese (native), English (fluent)
+cv:
+  name: Han Liu
+  email: liux3790@umn.edu
+  website: https://hanliu.me
+  location: Minneapolis, MN
+  social_networks:
+    - network: LinkedIn
+      username: hliu2019
+    - network: Google Scholar
+      username: iBmQmukAAAAJ
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Certificate of Quantum Excellence in QC and QML
-      institution: "IBM Qiskit Global Summer School on Quantum Machine Learning"
-      year: 2021
-      description:
-        - "Grade: 100/100"
-    - title: Ph.D. in Mechanical Engineering - Fluid Mechanics
-      institution: Peking University, Beijing, China
-      year: 2012 - 2018
-      description:
-        - "Thesis: Characteristics and action mechanism of the structures in ventilated supercavity"
-    - title: B.S. in Theoretical and Applied Mechanics
-      institution: Peking University, Beijing, China
-      year: 2008 - 2012
-      description:
-        - "Thesis: Numerical investigation on heavy particle pair dispersion in the inertial range of two dimensional turbulence"
+  sections:
+    Education:
+      - institution: Peking University
+        area: Fluid Mechanics
+        degree: Ph.D. in Mechanical Engineering
+        start_date: 2012-09
+        end_date: 2018-06
+        location: Beijing, China
+        highlights:
+          - "Thesis: Characteristics and action mechanism of the structures in ventilated supercavity"
+      - institution: Peking University
+        area: Theoretical and Applied Mechanics
+        degree: B.S.
+        start_date: 2008-09
+        end_date: 2012-06
+        location: Beijing, China
+        highlights:
+          - "Thesis: Numerical investigation on heavy particle pair dispersion in the inertial range of two dimensional turbulence"
+      - institution: IBM Qiskit Global Summer School on Quantum Machine Learning
+        area: Quantum Computing and Quantum Machine Learning
+        degree: Certificate of Quantum Excellence
+        date: "2021"
+        highlights:
+          - "Grade: 100/100"
 
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: Researcher
-      institution: St. Anthony Falls Laboratory, University of Minnesota
-      year: 2021 - Present
-      description:
-        - Developed a hybrid framework combining quantum circuits with physics-informed neural networks (PINNs) to simulate incompressible turbulence
-        - Applied quantum tensor networks for data compression and acceleration in turbulence simulations
-        - Adapted and maintained in-house Fortran code for multi-GPU parallel computing using C++, CUDA, and CUDA-aware MPI
-        - Investigated oil-wind-wave interactions with three-phase interface capture algorithms
-    - title: Post-Doctoral Associate
-      institution: St. Anthony Falls Laboratory, University of Minnesota
-      year: 2018 - 2021
-      description:
-        - Developed a novel method to simulate two-phase incompressible flows at high-density ratio and high Reynolds number
-        - Researched wind-wave-bathymetry interactions near the surf zone for amphibious vehicle performance
-        - Simulated indoor airflow and aerosol transport to study COVID-19 transmission mechanisms
-        - Optimized hydro-turbine geometries using immersed boundary methods
-    - title: Visiting Scholar
-      institution: University of Minnesota
-      year: 2015 - 2017
-      description:
-        - Developed in-house code for simulating multiphase turbulent flow with VOF, level set, and immersed boundary methods
-        - Researched turbulent cavitating flows interacting with ocean waves
-    - title: Research Assistant
-      institution: Peking University
-      year: 2012 - 2018
-      description:
-        - Developed in-house code to simulate compressible multiphase turbulence
-        - Researched particle preferential concentration in compressible turbulent flows
-        - Investigated Richtmyer-Meshkov instability and turbulent mixing
+    Experience:
+      - company: VINCI4D.ai
+        position: Consultant -- Foundational Model
+        start_date: 2026-03
+        end_date: present
+        highlights:
+          - Designing AI agentic workflows for high-fidelity data generation and training AI surrogate models toward physics-based foundational models
+          - Focused on EDA thermal analysis for chip manufacturing
+      - company: Claros Technologies
+        position: CFD Consultant -- Digital Twin Platform
+        start_date: 2025-01
+        end_date: present
+        highlights:
+          - Built end-to-end CFD digital twin for PFAS chemical reactor with parametric geometry, simulation, data generation, and optimization
+          - Integrated chemical kinetics into the solver and developed optimization algorithms for reactive flow design
+      - company: St. Anthony Falls Laboratory, University of Minnesota
+        position: Researcher
+        start_date: 2021-01
+        end_date: present
+        location: Minneapolis, MN
+        highlights:
+          - Built an incompressible CFD solver with AMR, coupled level-set/VOF interface tracking, and cut-cell embedded boundaries on AMReX (26K lines of C++, 12 modules, 467 unit tests, 7 validated benchmarks)
+          - "Ported lab's Fortran HPC code to C++/CUDA multi-GPU; breaking wave case (2048x2048x1024): 1 month on 2048 CPUs to 2.5 days on 64 A100s to under 5 hours with mixed-precision Poisson solver; 40% memory reduction"
+          - Developed hybrid quantum-classical framework (variational quantum circuits + physics-informed neural networks) for incompressible turbulence simulation
+          - Applied quantum tensor networks (MPS/MPO) for data compression and acceleration in Navier-Stokes simulations
+      - company: St. Anthony Falls Laboratory, University of Minnesota
+        position: Post-Doctoral Associate
+        start_date: 2018-09
+        end_date: 2021-01
+        location: Minneapolis, MN
+        highlights:
+          - "Developed coupled level-set/VOF interface tracking for two-phase and three-phase flows at high density ratios (>1000:1); applied to oil spill simulation in turbulent breaking waves (JCP 2023)"
+          - "Simulated COVID-19 airborne transmission in indoor environments; **Featured Article** in Physics of Fluids, covered by The Guardian"
+          - Researched wind-wave-bathymetry interactions near the surf zone for amphibious vehicle performance
+          - Optimized hydro-turbine geometries using immersed boundary methods and large-eddy simulation
+      - company: Dynamic Dimension Technologies (DDT), LLC
+        position: CFD Consultant -- Ocean Wave Digital Twin
+        start_date: 2023-01
+        end_date: 2023-09
+        highlights:
+          - Built ocean wave modeling platform (shoaling, bathymetry, vehicle dynamics) with synthetic data generation for surrogate models
+      - company: University of Minnesota
+        position: Visiting Scholar
+        start_date: 2015-09
+        end_date: 2017-08
+        highlights:
+          - Developed in-house code for simulating multiphase turbulent flow with VOF, level set, and immersed boundary methods
+          - Researched turbulent cavitating flows interacting with ocean waves
+      - company: Peking University
+        position: Research Assistant
+        start_date: 2012-09
+        end_date: 2018-06
+        location: Beijing, China
+        highlights:
+          - Built a compressible high-Mach-number multiphase solver from scratch (Fortran + MPI); applied to shock-multiphase-flow interactions for inertial confinement fusion (Physical Review E)
+          - Developed coupled level-set/VOF interface tracking in an incompressible flow solver; studied underwater cavitation drag reduction (Journal of Fluid Mechanics)
+          - Investigated Richtmyer-Meshkov instability and turbulent mixing
 
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: Computational Fluid Dynamics (CFD)
-      items:
-        - High-fidelity numerical simulation
-        - Level set and volume of fluid methods
-        - Large-eddy simulation (LES)
-    - title: Multiphase Flow
-      items:
-        - Air-water-oil systems
-        - Ventilated cavitation
-        - Bubble dynamics and tracking
-    - title: Turbulence
-      items:
-        - Compressible turbulence
-        - Turbulent mixing
-        - Richtmyer-Meshkov instability
-    - title: Applied CFD
-      items:
-        - COVID-19 airborne transmission
-        - Oil spill dynamics
-        - Hydrokinetic turbine design
-        - Aquatic canopy flows
-    - title: Quantum-Inspired Computing
-      items:
-        - Tensor network methods for Navier-Stokes equations
-        - Variational quantum algorithms for fluid mechanics
-        - Matrix product state encoding for velocity fields
+    Research Interests:
+      - bullet: "**Computational Fluid Dynamics (CFD):** High-fidelity numerical simulation (DNS/LES), level set and volume of fluid methods, adaptive mesh refinement (AMR), immersed boundary and cut-cell methods"
+      - bullet: "**Multiphase Flow:** Air-water-oil systems, ventilated cavitation, bubble dynamics and tracking, high-density-ratio interface tracking"
+      - bullet: "**Turbulence:** Compressible turbulence, turbulent mixing, Richtmyer-Meshkov instability"
+      - bullet: "**High-Performance Computing:** Multi-GPU parallel computing (C++/CUDA), mixed-precision solvers, large-scale simulation optimization"
+      - bullet: "**Applied CFD:** COVID-19 airborne transmission, oil spill dynamics, hydrokinetic turbine design, aquatic canopy flows, digital twin platforms"
+      - bullet: "**Quantum-Inspired Computing:** Tensor network methods for Navier-Stokes equations, variational quantum algorithms for fluid mechanics, matrix product state encoding"
 
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Programming
-      items:
-        - Python, Fortran, C++, CUDA, Matlab
-    - title: HPC
-      items:
-        - Linux, Shell, PBS, Slurm, MPI, HDF5, PETSc, hypre
-    - title: CFD
-      items:
-        - "Multiphase flow (Level set, VOF, FSI), Turbulence (DNS, LES), Finite difference, Finite volume, Parallel computing"
-    - title: Quantum Computing
-      items:
-        - Qiskit, Yao.jl, Variational quantum circuit, Quantum machine learning
+    Skills:
+      - label: HPC
+        details: "Fortran, C++, CUDA, MPI, Python, Git, Slurm, PBS, HDF5, PETSc, hypre"
+      - label: Multiphase CFD
+        details: "High-order schemes, interface tracking (level set, VOF, CLSVOF), Basilisk, AMReX, DNS/LES/RANS, turbulence modeling, immersed boundary method, shock capturing, Poisson solver, fluid-structure interaction, finite difference/volume, OpenFOAM, ANSYS"
+      - label: AI/ML
+        details: "Physics-informed neural networks (PINNs), LLM-augmented development, multi-agent orchestration"
+      - label: Quantum Computing
+        details: "Qiskit, Yao.jl, variational quantum circuits, quantum-PINNs, quantum tensor networks"
 
-- title: Professional Memberships
-  type: list
-  contents:
-    - American Physical Society (APS)
-    - American Geophysical Union (AGU)
+    Selected Publications:
+      - title: "Quantum-inspired tensor network representations of the shallow water equation"
+        authors:
+          - "**Liu, H.**"
+          - Li, T.
+          - Shen, L.
+        journal: Under revision
+        date: ""
+      - title: "Simulation-based study of low Reynolds number flow around a ventilated cavity"
+        authors:
+          - "**Liu, H.**"
+          - Xiao, Z.
+          - Shen, L.
+        journal: Journal of Fluid Mechanics
+        date: "2023"
+      - title: "A consistent adaptive level set framework for incompressible two-phase flows with high density ratios and high Reynolds numbers"
+        authors:
+          - Zeng, Y.
+          - "**Liu, H.**"
+          - et al.
+        journal: Journal of Computational Physics
+        date: "2023"
+      - title: "Simulation-based study of turbulent aquatic canopy flows with flexible stems"
+        authors:
+          - He, S.
+          - "**Liu, H.**"
+          - Shen, L.
+        journal: Journal of Fluid Mechanics
+        date: "2022"
+      - title: "Large-eddy simulation and co-design strategy for a drag-type vertical axis hydrokinetic turbine"
+        authors:
+          - Gao, J.
+          - "**Liu, H.**"
+          - Lee, J.
+          - Zheng, Y.
+          - Guala, M.
+          - Shen, L.
+        journal: Renewable Energy
+        date: "2022"
+      - title: "Refined modeling for single-mode cylindrical Richtmyer-Meshkov instability"
+        authors:
+          - Wu, J.
+          - "**Liu, H.**"
+          - Xiao, Z.
+        journal: Journal of Fluid Mechanics
+        date: "2021"
+      - title: "A robust and accurate technique for Lagrangian tracking of bubbles and detecting fragmentation and coalescence"
+        authors:
+          - Gao, Q.
+          - Deane, G.B.
+          - "**Liu, H.**"
+          - Shen, L.
+        journal: International Journal of Multiphase Flow
+        date: "2021"
+      - title: "Numerical investigation of ventilated cavitating flow in the wake of a circular cylinder"
+        authors:
+          - Wang, Z.
+          - "**Liu, H.**"
+          - Gao, Q.
+          - et al.
+        journal: Physical Review Fluids
+        date: "2021"
+      - title: "Simulation-based study of COVID-19 outbreak associated with air-conditioning in a restaurant [Featured Article]"
+        authors:
+          - "**Liu, H.**"
+          - He, S.
+          - Shen, L.
+          - Hong, J.
+        journal: Physics of Fluids
+        date: "2021"
+      - title: "Numerical investigation of Richtmyer-Meshkov instability in spherical geometry"
+        authors:
+          - Wu, J.
+          - "**Liu, H.**"
+          - Xiao, Z.
+        journal: Advances in Applied Mathematics and Mechanics
+        date: "2019"
+      - title: "Scale-to-scale energy transfer in mixing flow induced by the Richtmyer-Meshkov instability"
+        authors:
+          - "**Liu, H.**"
+          - Xiao, Z.
+        journal: Physical Review E
+        date: "2016"
+      - title: "Preferential concentration of heavy particles in compressible isotropic turbulence"
+        authors:
+          - Zhang, Q.
+          - "**Liu, H.**"
+          - Ma, Z.
+          - Xiao, Z.
+        journal: Physics of Fluids
+        date: "2016"
 
-- title: Peer Review Experience
-  type: list
-  contents:
-    - Physical Review Letters
-    - Journal of Fluid Mechanics
-    - Geophysical Research Letters
-    - Scientific Reports
-    - Physics of Fluids
-    - Review of Scientific Instruments
-    - Journal of Computational Science
+    Selected Presentations:
+      - name: "Enhancing incompressible two-phase turbulence simulations with quantum tensor networks"
+        date: "2025"
+        location: APS Global Summit 2025, Anaheim, CA
+      - name: "Quantum-inspired high-fidelity solver for simulating incompressible two-phase turbulence"
+        date: "2024"
+        location: 77th APS Division of Fluid Dynamics Annual Meeting, Salt Lake City
+      - name: "Efficiency-enhanced high-fidelity simulation solver for incompressible two-phase flows and fluid-structure interactions"
+        date: "2023"
+        location: 76th APS DFD Annual Meeting
+      - name: "Simulation-based study on turbulent canopy flows and Monami phenomenon"
+        date: "2022"
+        location: 75th APS DFD Annual Meeting, Indianapolis
+      - name: "Simulation-based study on the interaction between flexible canopy and turbulent boundary layer flows"
+        date: "2022"
+        location: AGU 2022, Chicago
+      - name: "Variational quantum algorithm towards quantum computing for fluid mechanics"
+        date: "2021"
+        location: 74th APS DFD Annual Meeting, Phoenix
+      - name: "Simulation-based study of airborne transmission of COVID-19 in two practical settings"
+        date: "2020"
+        location: 73rd APS DFD Annual Meeting (Virtual)
+      - name: "Simulation-based study of wind effect on shoaling waves"
+        date: "2020"
+        location: Ocean Sciences Meeting, San Diego
+      - name: "A stabilized coupled level set and volume of fluid method"
+        date: "2019"
+        location: 72nd APS DFD Annual Meeting, Seattle
+      - name: "Numerical study on supercavitation turbulence"
+        date: "2018"
+        location: 71st APS DFD Annual Meeting, Atlanta
+      - name: "Simulation based study of supercavitation turbulence"
+        date: "2017"
+        location: 10th International Workshop on Ship and Marine Hydrodynamics, Taiwan
+      - name: "Numerical study on the interaction between supercavitation and turbulence"
+        date: "2016"
+        location: 69th APS DFD Annual Meeting, Portland
+      - name: "Preferential concentration of particles in compressible turbulence"
+        date: "2015"
+        location: 15th European Turbulence Conference (ETC15), Delft, Netherlands
+      - name: "Direct numerical simulation of the turbulent mixing in Richtmyer-Meshkov Instability"
+        date: "2014"
+        location: 6th European Conference on Computational Fluid Dynamics (ECFD VI), Barcelona
+      - name: "Energy transfer during the turbulent mixing in Richtmyer-Meshkov Instability"
+        date: "2014"
+        location: 2nd International Conference on High Energy Density Physics (ICHEDP), Beijing
 
-- title: Service
-  type: time_table
-  contents:
-    - title: "Session Chair: Computational Fluid Dynamics: General III"
-      institution: APS Division of Fluid Dynamics Annual Meeting
-      year: 2021
+    Professional Memberships:
+      - bullet: American Physical Society (APS)
+      - bullet: American Geophysical Union (AGU)
 
-- title: Media Coverage
-  type: time_table
-  contents:
-    - title: "The Guardian: Bob Pape was a beloved father and foster carer. Did 'eat out to help out' cost him his life?"
-      year: 2021
-      description:
-        - Research on COVID-19 airborne transmission featured in The Guardian
+    Peer Review Experience:
+      - bullet: Physical Review Letters
+      - bullet: Journal of Fluid Mechanics
+      - bullet: Geophysical Research Letters
+      - bullet: Scientific Reports
+      - bullet: Physics of Fluids
+      - bullet: Review of Scientific Instruments
+      - bullet: Journal of Computational Science
 
-- title: Selected Presentations
-  type: time_table
-  contents:
-    - title: "Enhancing incompressible two-phase turbulence simulations with quantum tensor networks"
-      institution: APS Global Summit 2025, Anaheim, CA
-      year: 2025
-    - title: "Quantum-inspired high-fidelity solver for simulating incompressible two-phase turbulence"
-      institution: 77th APS Division of Fluid Dynamics Annual Meeting, Salt Lake City
-      year: 2024
-    - title: "Efficiency-enhanced high-fidelity simulation solver for incompressible two-phase flows and fluid-structure interactions"
-      institution: 76th APS DFD Annual Meeting
-      year: 2023
-    - title: "Simulation-based study on turbulent canopy flows and Monami phenomenon"
-      institution: 75th APS DFD Annual Meeting, Indianapolis
-      year: 2022
-    - title: "Simulation-based study on the interaction between flexible canopy and turbulent boundary layer flows"
-      institution: AGU 2022, Chicago
-      year: 2022
-    - title: "Variational quantum algorithm towards quantum computing for fluid mechanics"
-      institution: 74th APS DFD Annual Meeting, Phoenix
-      year: 2021
-    - title: "Simulation-based study of airborne transmission of COVID-19 in two practical settings"
-      institution: 73rd APS DFD Annual Meeting (Virtual)
-      year: 2020
-    - title: "Simulation-based study of wind effect on shoaling waves"
-      institution: Ocean Sciences Meeting, San Diego
-      year: 2020
-    - title: "A stabilized coupled level set and volume of fluid method"
-      institution: 72nd APS DFD Annual Meeting, Seattle
-      year: 2019
-    - title: "Numerical study on supercavitation turbulence"
-      institution: 71st APS DFD Annual Meeting, Atlanta
-      year: 2018
-    - title: "Simulation based study of supercavitation turbulence"
-      institution: 10th International Workshop on Ship and Marine Hydrodynamics, Taiwan
-      year: 2017
-    - title: "Numerical study on the interaction between supercavitation and turbulence"
-      institution: 69th APS DFD Annual Meeting, Portland
-      year: 2016
-    - title: "Preferential concentration of particles in compressible turbulence"
-      institution: 15th European Turbulence Conference (ETC15), Delft, Netherlands
-      year: 2015
-    - title: "Direct numerical simulation of the turbulent mixing in Richtmyer-Meshkov Instability"
-      institution: 6th European Conference on Computational Fluid Dynamics (ECFD VI), Barcelona
-      year: 2014
-    - title: "Energy transfer during the turbulent mixing in Richtmyer-Meshkov Instability"
-      institution: 2nd International Conference on High Energy Density Physics (ICHEDP), Beijing
-      year: 2014
+    Service:
+      - name: "Session Chair: Computational Fluid Dynamics: General III"
+        date: "2021"
+        location: APS Division of Fluid Dynamics Annual Meeting
+
+    Media Coverage:
+      - name: "The Guardian: Bob Pape was a beloved father and foster carer. Did 'eat out to help out' cost him his life?"
+        date: "2021"
+        highlights:
+          - Research on COVID-19 airborne transmission featured in The Guardian

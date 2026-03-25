@@ -5,7 +5,7 @@
     "image": "",
     "email": "liux3790@umn.edu",
     "url": "https://hanliu.me",
-    "summary": "Researcher at St. Anthony Falls Laboratory, University of Minnesota. Research focused on Computational Fluid Dynamics (CFD), multiphase flow, turbulence, and quantum-inspired computing for fluid mechanics.",
+    "summary": "Computational physicist at St. Anthony Falls Laboratory, University of Minnesota. Research focused on building high-fidelity CFD solvers for multiphase turbulent flows, GPU-accelerated computing, and quantum-inspired methods for fluid mechanics. Experience delivering digital twin platforms for industrial applications.",
     "location": {
       "city": "Minneapolis",
       "countryCode": "US",
@@ -26,12 +26,26 @@
   },
   "work": [
     {
+      "name": "Claros Technologies",
+      "position": "CFD Consultant",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "summary": "End-to-end CFD digital twin for PFAS chemical reactor: parametric geometry, simulation, data generation, optimization, and chemical kinetics integration."
+    },
+    {
+      "name": "Dynamic Dimension Technologies (DDT), LLC",
+      "position": "CFD Consultant",
+      "startDate": "2023-01-01",
+      "endDate": "2023-09-01",
+      "summary": "Ocean wave modeling platform with shoaling, bathymetry, vehicle dynamics, and synthetic data generation for surrogate models."
+    },
+    {
       "name": "St. Anthony Falls Laboratory, University of Minnesota",
       "position": "Researcher",
       "url": "https://cse.umn.edu/safl",
       "startDate": "2021-01-01",
       "endDate": "",
-      "summary": "Computational Fluid Dynamics research, multiphase flow simulation, quantum-inspired computing methods for fluid mechanics."
+      "summary": "Built incompressible CFD solver with AMR, CLSVOF interface tracking, and cut-cell boundaries on AMReX. Ported Fortran HPC code to C++/CUDA multi-GPU. Developed quantum-classical hybrid frameworks for Navier-Stokes acceleration."
     },
     {
       "name": "St. Anthony Falls Laboratory, University of Minnesota",
@@ -39,7 +53,7 @@
       "url": "https://cse.umn.edu/safl",
       "startDate": "2018-01-01",
       "endDate": "2021-01-01",
-      "summary": "High-fidelity simulation of multiphase flows, COVID-19 airborne transmission, oil spill dynamics."
+      "summary": "Developed CLSVOF interface tracking for high-density-ratio multiphase flows. Simulated COVID-19 airborne transmission (Featured Article, Physics of Fluids). Researched oil spill dynamics and hydrokinetic turbine optimization."
     }
   ],
   "education": [
@@ -60,12 +74,31 @@
       "endDate": "2012-06-01"
     }
   ],
+  "skills": [
+    {
+      "name": "HPC",
+      "keywords": ["Fortran", "C++", "CUDA", "MPI", "Python", "Slurm", "PBS", "HDF5", "PETSc", "hypre"]
+    },
+    {
+      "name": "Multiphase CFD",
+      "keywords": ["DNS/LES/RANS", "Level set", "VOF", "CLSVOF", "AMReX", "Basilisk", "Immersed boundary", "Shock capturing", "OpenFOAM", "ANSYS"]
+    },
+    {
+      "name": "AI/ML",
+      "keywords": ["Physics-informed neural networks", "LLM-augmented development", "Multi-agent orchestration"]
+    },
+    {
+      "name": "Quantum Computing",
+      "keywords": ["Qiskit", "Variational quantum circuits", "Quantum-PINNs", "Quantum tensor networks"]
+    }
+  ],
   "interests": [
     { "name": "Computational Fluid Dynamics" },
     { "name": "Multiphase Flow" },
     { "name": "Turbulence" },
-    { "name": "Particle-laden Flow" },
+    { "name": "High-Performance Computing" },
     { "name": "Fluid-Structure Interaction" },
-    { "name": "Quantum-Inspired Computing" }
+    { "name": "Quantum-Inspired Computing" },
+    { "name": "Digital Twin Platforms" }
   ]
 }
