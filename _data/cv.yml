@@ -118,6 +118,15 @@ cv:
           - Shen, L.
         journal: Under revision
         date: ""
+      - title: "A conservative integral formulation of surface tension in three dimensions"
+        authors:
+          - Basak, S.
+          - Bitencourt, U.C.
+          - Gembali, S.C.
+          - "**Liu, H.**"
+          - Shen, L.
+        journal: Journal of Computational Physics
+        date: "2027"
       - title: "Simulation-based study of low Reynolds number flow around a ventilated cavity"
         authors:
           - "**Liu, H.**"
