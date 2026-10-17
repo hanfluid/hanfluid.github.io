@@ -35,15 +35,6 @@ cv:
           - "Grade: 100/100"
 
     Experience:
-      - company: GHD-Sponsored Research, St. Anthony Falls Laboratory, University of Minnesota
-        position: Lead PI -- PFAS-Microplastic Interactions (with Dr. Zhiyong Xia, GHD)
-        start_date: 2026-10
-        end_date: present
-        location: Minneapolis, MN
-        highlights:
-          - "Secured and lead an industry-sponsored project for GHD quantifying how seven PFAS (PFOA, PFOS, PFBA, PFBS, TFA, TFMS, 6:2 FTS) bind to PE and PET microplastics, which interactions control the binding, and how weathering (C=O, OH, COOH, COO- groups) and pH change it"
-          - "Built a quantum-chemistry workflow: CREST conformer searches, dispersion-corrected DFT (ωB97M-V/def2-TZVPD with SMD solvation and counterpoise correction) for 22 PFAS-polymer complexes with frequency-verified minima, and SAPT energy decomposition"
-          - "Mapped surface electrostatic potentials of PE, PET, PVC and PS; benchmarked the functional against CCSD(T); ran GPU-accelerated quantum chemistry (gpu4pyscf) on A100/H100 clusters"
       - company: VINCI4D.ai
         position: Consultant -- Foundational Model
         start_date: 2026-03
@@ -100,9 +91,6 @@ cv:
           - Built a compressible high-Mach-number multiphase solver from scratch (Fortran + MPI); applied to shock-multiphase-flow interactions for inertial confinement fusion (Physical Review E)
           - Developed coupled level-set/VOF interface tracking in an incompressible flow solver; studied underwater cavitation drag reduction (Journal of Fluid Mechanics)
           - Investigated Richtmyer-Meshkov instability and turbulent mixing
-
-    Grants:
-      - bullet: "**GHD -- Computational Investigation of PFAS-Microplastic Interactions** (Nov 2026 -- Feb 2027). Lead PI (Co-PI: Lian Shen); industry-sponsored research, $10,000"
 
     Research Interests:
       - bullet: "**Computational Fluid Dynamics (CFD):** High-fidelity numerical simulation (DNS/LES), level set and volume of fluid methods, adaptive mesh refinement (AMR), immersed boundary and cut-cell methods"
