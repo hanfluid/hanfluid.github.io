@@ -1,4 +1,11 @@
 - year: 2026
+  title: "A multicolor coupled level set and volume-of-fluid framework for controlled coalescence of drops and bubbles in two-phase flow simulations"
+  venue: "Journal of Computational Physics, 569, 115529"
+  type: paper
+  highlight: true
+  url: "https://doi.org/10.1016/j.jcp.2026.115529"
+
+- year: 2026
   title: "A conservative integral formulation of surface tension in three dimensions"
   venue: "Journal of Computational Physics, 569, 115469"
   type: paper
