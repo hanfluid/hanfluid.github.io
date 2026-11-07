@@ -262,7 +262,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
     - [People](#people)
-    - [Publications](#publications)
+    - [Timeline](#timeline)
     - [Collections](#collections)
     - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
@@ -383,13 +383,9 @@ You can create a people page if you want to feature more than one person. Each p
 
 ---
 
-### Publications
+### Timeline
 
-Your publications page is generated automatically from your BibTeX bibliography. You can customize publication display, add extra information like PDFs, and control sorting behavior.
-
-[![Publications Preview](readme_preview/publications.png)](https://alshedivat.github.io/al-folio/publications/)
-
-For setup, BibTeX field documentation, and customization options, see [Adding a new publication](CUSTOMIZE.md#adding-a-new-publication) and [Managing publication display](CUSTOMIZE.md#managing-publication-display) in [CUSTOMIZE.md](CUSTOMIZE.md).
+Add papers, manuscripts, and presentations to [`_data/timeline.yml`](_data/timeline.yml) in reverse chronological order. The [homepage Timeline](https://hanliu.me/#timeline) displays them in that order.
 
 ---
 

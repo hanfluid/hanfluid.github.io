@@ -58,18 +58,8 @@ layout: default
 
     <!-- Timeline -->
     {% if page.timeline %}
-      <h2>
-        Timeline
-      </h2>
+      <h2 id="timeline">Timeline</h2>
       {% include timeline.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
     {% endif %}
 
     <!-- Social -->

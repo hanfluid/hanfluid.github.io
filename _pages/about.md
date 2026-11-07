@@ -18,7 +18,6 @@ profile:
 
 news: true
 timeline: true
-selected_papers: false
 social: false
 ---
 

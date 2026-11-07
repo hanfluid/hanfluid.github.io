@@ -13,11 +13,17 @@
   url: "https://doi.org/10.1016/j.jcp.2026.115469"
 
 - year: 2026
+  title: "Numerical Evidence of Invariance of Turbulence Dissipation Rate in Breaking Waves"
+  venue: "Geophysical Research Letters, 53(16), e2026GL123324"
+  type: paper
+  highlight: true
+  url: "https://doi.org/10.1029/2026GL123324"
+
+- year: 2026
   title: "Quantum-inspired tensor network representations of the shallow water equation"
   venue: Journal of Fluid Mechanics
   type: manuscript
   note: "Under revision"
-  url: "/publications/#liu2026shallow"
 
 - year: 2025
   title: "Exploring low-rank structures in shallow water equations using quantum tensor networks"
