@@ -1,3 +1,17 @@
+- year: 2026
+  title: "A conservative integral formulation of surface tension in three dimensions"
+  venue: "Journal of Computational Physics, 569, 115469"
+  type: paper
+  highlight: true
+  url: "https://doi.org/10.1016/j.jcp.2026.115469"
+
+- year: 2026
+  title: "Quantum-inspired tensor network representations of the shallow water equation"
+  venue: Journal of Fluid Mechanics
+  type: manuscript
+  note: "Under revision"
+  url: "/publications/#liu2026shallow"
+
 - year: 2025
   title: "Exploring low-rank structures in shallow water equations using quantum tensor networks"
   venue: 78th APS DFD, Houston
