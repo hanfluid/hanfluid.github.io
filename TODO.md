@@ -77,7 +77,6 @@
 
 ### Medium Priority
 
-- [ ] **Add publication preview images** to `assets/img/publication_preview/` for selected papers (currently empty after removing templates)
 - [ ] **Write more blog posts** — only one CFD post exists
 - [ ] **Add teaching content** if applicable (page is hidden with placeholder)
 - [ ] **Update `prof_pic_color.png`** — still the old Einstein image (14MB), either replace or delete
